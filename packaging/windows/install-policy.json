@@ -1,0 +1,44 @@
+{
+  "id": "effectcraft",
+  "name": "NOVA Efekt",
+  "upgradeCode": "B3E93E5B-C683-5194-AFFD-BBBEFC5404FC",
+  "sources": [
+    "effectcraft.wxs",
+    "installer-ui.wxs"
+  ],
+  "icon": "assets/app-icon/effectcraft.ico",
+  "localization": [],
+  "extensions": [],
+  "payloads": [
+    "NOTICE",
+    "effectcraft-cli.exe",
+    "effectcraft.exe"
+  ],
+  "registry": [
+    [
+      "-1",
+      "Software\\Microsoft\\Windows\\CurrentVersion\\App Paths\\effectcraft.exe",
+      "",
+      "[#EffectcraftExe]"
+    ],
+    [
+      "-1",
+      "Software\\Microsoft\\Windows\\CurrentVersion\\App Paths\\effectcraft.exe",
+      "Path",
+      "[INSTALLFOLDER]"
+    ],
+    [
+      "-1",
+      "Software\\NOVA Efekt",
+      "DesktopShortcut",
+      "[DESKTOPSHORTCUT]"
+    ],
+    [
+      "-1",
+      "Software\\NOVA Efekt",
+      "DesktopShortcut",
+      "1"
+    ]
+  ],
+  "mode": "dualScope"
+}

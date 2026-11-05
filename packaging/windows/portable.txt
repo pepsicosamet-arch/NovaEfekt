@@ -1,0 +1,12 @@
+NOVA Efekt portable mode
+
+While this file sits next to effectcraft.exe, NOVA Efekt keeps its settings, keyboard shortcuts,
+crash-recovery files, logs and plug-ins in the NovaEfektData folder beside it instead of
+%APPDATA%\NOVA Efekt. Copy the whole folder to move NOVA Efekt with its settings.
+
+The disk cache, media cache and conformed audio still go to %LOCALAPPDATA%\NOVA Efekt unless
+you choose other folders in Edit > Preferences > Disk.
+
+Delete this file to use the normal per-user settings folder (%APPDATA%\NOVA Efekt) instead.
+If NovaEfektData can't be written (for example on a read-only drive), NOVA Efekt logs a
+warning and uses %APPDATA%\NOVA Efekt instead.
